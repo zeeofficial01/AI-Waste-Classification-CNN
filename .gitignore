@@ -1,0 +1,23 @@
+# Python environments
+.venv/
+.venv*/
+venv/
+
+# Original dataset
+data/
+
+# Generated Python files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+
+# System files
+.DS_Store
+*.log
+
+# Local dataset split contains machine-specific paths
+outputs/splits/dataset_split.csv

@@ -1,0 +1,20 @@
+{
+  "split_csv": "outputs/splits/dataset_split.csv",
+  "img_size": 96,
+  "batch_size": 16,
+  "max_epochs": 15,
+  "seed": 42,
+  "classes": [
+    "cardboard",
+    "glass",
+    "metal",
+    "paper",
+    "plastic",
+    "trash"
+  ],
+  "train_count": 1768,
+  "val_count": 379,
+  "test_count": 380,
+  "best_model_path": "models/best_waste_cnn.keras",
+  "test_accuracy": 0.5473684210526316
+}
